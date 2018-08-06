@@ -1,0 +1,77 @@
+@import "/libs/fa/font-awesome";
+
+page {
+  line-height: 1.6;
+  font-family: -apple-system-font, "Helvetica Neue", sans-serif;
+}
+
+.nav {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(51, 51, 51, 0.1);
+}
+
+.nav .title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.nav .icon {
+  display: flex;
+  align-items: center;
+}
+
+
+.header .list {
+  padding: 10px 20px;
+  display: none;
+}
+
+.header .list.show {
+  opacity: 1;
+  display: block;
+}
+
+.header .list .item {
+  padding: 10px 0;
+  border-top: 1px solid rgba(51, 51, 51, 0.1);
+}
+
+
+.header .list .item:first-child {
+  padding-top: 0;
+  border-top: none;
+}
+
+.header .icons {
+  margin-top: 10px;
+}
+
+.header .fab {
+  font-size: 1.4em;
+  margin-right: 0.5em;
+}
+
+.meta {
+  padding: 10px 20px;
+  display: flex;
+  font-size: 12px;
+  background-color: #f7f7f7;
+  color: #707070;
+}
+
+.meta .far, .meta .fas {
+  margin-right: 5px;
+}
+
+.meta .date {
+  margin-right: 10px;
+}
+
+.footer {
+    border-top: 1px solid rgba(51, 51, 51, 0.1);
+    padding: 20px;
+    font-size: 10px;
+    text-align: center;
+}

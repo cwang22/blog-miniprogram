@@ -1,0 +1,22 @@
+<import src="/modules/header.wxml" />
+<import src="/modules/footer.wxml" />
+
+<import src="/libs/wxParse/wxParse.wxml" />
+<template is="header" data="{{open}}" />
+<view class="article">
+  <view class="content">
+    <view class="title">{{post.title}}</view>
+    <template is="wxParse" data="{{wxParseData:article.nodes}}" />
+  </view>
+  <view class="meta" wx:if="{{!isPage}}">
+    <view class="date" wx:if="{{post.publishedAt}}">
+      <text class="far fa-calendar-alt"></text>
+      <text>{{post.publishedAt }}</text>
+    </view>
+    <view class="category">
+      <text class="fas fa-folder-open"></text>
+      <text>{{ post.category || '未分类' }}</text>
+    </view>
+  </view>
+</view>
+<template is="footer" />

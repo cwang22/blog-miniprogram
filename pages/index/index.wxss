@@ -1,0 +1,24 @@
+.article {
+  border-top: 1px solid rgba(51, 51, 51, 0.1);
+}
+
+.article .content {
+  padding: 20px;
+}
+
+.article .title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.article .excerpt {
+  font-size: 14px;
+}
+
+.article .read-more {
+  font-size: 12px;
+  margin-top: 15px;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #000;
+}

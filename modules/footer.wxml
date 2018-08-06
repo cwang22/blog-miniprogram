@@ -1,0 +1,5 @@
+<template name="footer">
+  <view class="footer">
+    <view>Copyright © 2018 Chenggang Wang</view>
+  </view>
+</template>
