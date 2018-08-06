@@ -9,6 +9,7 @@ Page({
     open:false
   },
   onLoad: function (options) {
+    wx.showLoading('读取中')
     let id
     let type
     if(options.id) {
@@ -29,6 +30,7 @@ Page({
 
       this.setData({ post })
       WxParse.wxParse('article', 'markdown', post.get('content'), this)
+      wx.hideLoading()
     })
   },
   navToggle: function () {
