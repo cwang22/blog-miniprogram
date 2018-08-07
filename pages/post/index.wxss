@@ -14,6 +14,10 @@
   margin-bottom: 20px;
 }
 
+.wxParse-p {
+  margin: 1em 0;
+}
+
 .wxParse-wxxxcode-style {
   font-family: 'Courier New', Courier, monospace;
   line-height: 1.2;

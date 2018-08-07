@@ -9,12 +9,6 @@
     <view class="list  {{open ? 'show' : ''}}">
       <navigator class="item" url="/pages/post/index?page=5b67c48967f35600358420e0">关于我</navigator>
       <navigator class="item" url="/pages/post/index?page=5b67c4b69f54540035e04aa7">项目</navigator>
-      <view class="icons">
-        <text class="fab fa-github"></text>
-        <text class="fab fa-linkedin"></text>
-        <text class="fab fa-weibo"></text>
-        <text class="fab fa-steam"></text>
-      </view>
     </view>
   </view>
 </template>
