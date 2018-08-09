@@ -12,5 +12,4 @@
 
 
 ### 小程序码
-还在审核。。。
-
+<img src="https://raw.githubusercontent.com/cwang22/blog-miniprogram/master/qrcode.jpg" width="250" height="250">
