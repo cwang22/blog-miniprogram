@@ -7,8 +7,8 @@
       </view>
     </view>
     <view class="list  {{open ? 'show' : ''}}">
-      <navigator class="item" url="/pages/post/index?page=5b67c48967f35600358420e0">关于我</navigator>
-      <navigator class="item" url="/pages/post/index?page=5b67c4b69f54540035e04aa7">项目</navigator>
+      <navigator class="item" url="/pages/post/index?page=5b6bcc5067f3560035a1c5e4">关于我</navigator>
+      <navigator class="item" url="/pages/post/index?page=5b6bcc8b67f3560035a1c844">项目</navigator>
     </view>
   </view>
 </template>

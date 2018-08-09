@@ -2,8 +2,8 @@
 const AV = require('./libs/leancloud/av-weapp-min')
 
 AV.init({
-  appId: 'OB1CKxdT8BW2j3mJLhSXhWch-gzGzoHsz',
-  appKey: 'FxkchRxgQSMgA0wvPFvfUAIF'
+  appId: 'mHNyMthW8oYXgEoQe4PKd1ES-gzGzoHsz',
+  appKey: 'd5IeSJVEtb2x6DHDT1BY7dbQ'
 })
 
 App({

@@ -7,7 +7,9 @@ Page({
     open: false
   },
   onLoad: function() {
-    wx.showLoading('读取中')
+    wx.showLoading({
+      title: '读取中'
+    })
     const query = new AV.Query('Post')
     query.descending('publishedAt').find().then(posts => {
       posts.map(post => {
