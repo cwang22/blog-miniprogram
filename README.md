@@ -7,6 +7,7 @@
 
 ### 同步脚本
 https://github.com/cwang22/blog-miniprogram-syncdata/
+
 只是简单的调用了API,并且 hardcode 了我需要的分类，并没有通用性,仅供参考
 
 ### 工具/库
